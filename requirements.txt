@@ -1,0 +1,22 @@
+# FleetSense Phase 1 Dependencies
+# Data Processing & Storage
+duckdb>=1.0.0
+polars>=0.20.0
+pyarrow>=14.0.0
+pandas>=2.1.0
+
+# Data Validation & Quality
+pandera[polars]>=0.18.0
+
+# Dashboard & Visualization
+streamlit>=1.30.0
+plotly>=5.18.0
+
+# Utilities & CLI
+click>=8.1.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+
+# Developer Tools & Testing (Dev dependencies)
+pytest>=8.0.0
+ruff>=0.2.0
